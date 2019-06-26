@@ -20,10 +20,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     }
-  .modal-dialog-k {
+.modal-dialog-k {
     padding: 0;
     padding: 0;
-}
+  }
+  .section-port-k {
+    background-image: url("../img/svg-bcg-01.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .portfolio-image-k {
     width: 20%;
     min-width: 250px;
@@ -44,13 +50,12 @@
     color: white;
     transition: transform 500ms ease-in-out;
   }
-  /* .portfolio-image-k img {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
+  .cv-section-k {
+    background-image: url("../img/svg-bcg-01.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .port-title-k {
     position: absolute;
     top: 25px;
