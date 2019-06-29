@@ -1,5 +1,5 @@
 .masthead {
-  height: 80vh;
+  height: 100vh;
   animation: header-anim-head 4s 2s both;
 }
 /* .masthead:hover  .header-title{
@@ -288,3 +288,47 @@
     100% {transform: translateX(50px);}
   }
 }
+
+#header-txt path:nth-child(1) {
+  stroke-dasharray: 236.65542602539062;
+  stroke-dashoffset: 236.65542602539062;
+  animation: line-anim 1s forwards 4s, fill 500ms forwards 6.2s;
+}
+#header-txt path:nth-child(2) {
+  stroke-dasharray: 268.47674560546875;
+  stroke-dashoffset: 268.47674560546875;
+  animation: line-anim 1s forwards 4.3s, fill 500ms forwards 6.4s;
+}
+#header-txt path:nth-child(3) {
+  stroke-dasharray: 258.89202880859375;
+  stroke-dashoffset: 258.89202880859375;
+  animation: line-anim 1s forwards 4.6s, fill 500ms forwards 6.6s;
+}
+#header-txt path:nth-child(4) {
+  stroke-dasharray: 235.41439819335938;
+  stroke-dashoffset: 235.41439819335938;
+  animation: line-anim 1s forwards 4.9s, fill 500ms forwards 6.8s;
+}
+#header-txt path:nth-child(5) {
+  stroke-dasharray: 185.76797485351562;
+  stroke-dashoffset: 185.76797485351562;
+  animation: line-anim 1s forwards 5.5s, fill 500ms forwards 7s;
+}
+#header-txt path:nth-child(6) {
+  stroke-dasharray: 123.47000122070312;
+  stroke-dashoffset: 123.47000122070312;
+  animation: line-anim 1s forwards 5.5s, fill 500ms forwards 7.2s;
+}
+#header-txt path:nth-child(7) {
+  stroke-dasharray: 223.22715759277344;
+  stroke-dashoffset: 223.22715759277344;
+  animation: line-anim 1s forwards 5.8s, fill 500ms forwards 7.4s;
+}
+#header-txt path:nth-child(8) {
+  stroke-dasharray: 258.89199829101564;
+  stroke-dashoffset: 258.8919982910156;
+  animation: line-anim 1s forwards 6.1s, fill 500ms forwards 7.8s;
+}
+
+
+

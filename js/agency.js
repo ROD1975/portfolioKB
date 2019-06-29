@@ -49,3 +49,8 @@ $(document).ready(function(){
   });
 
 
+// const logo = document.querySelectorAll('#header-txt path');
+
+// for(let i= 0; i<logo.length; i++){
+//   console.log(`Letter $(i) is ${logo[i].getTotalLength()}`);
+// }
