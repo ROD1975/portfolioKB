@@ -33,13 +33,13 @@
   position: absolute;
   animation: header-anim4-out 4s both 8s;
 }
-.header-hidden-txt {
+/* .header-hidden-txt {
   position: absolute;
   bottom: -55px;
   padding-right: 2rem;
   width: 100%;
   text-align: right;
-}
+} */
 .container-k {
     display: flex;
     flex-wrap: wrap;
