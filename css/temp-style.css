@@ -326,14 +326,14 @@
   }
   @keyframes header-anim1 {
     0%   {
-      transform: translateX(0px);
+      transform: translateX(-50px);
     }
     100% {
       transform: translateX(-50px);
     }
   }
   @keyframes header-anim2 {
-    0%   {transform: translateX(0px);}
+    0%   {transform: translateX(50px);}
   
     100% {
       transform: translateX(50px);
