@@ -37,8 +37,9 @@
 <body id="page-top">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container bounceInUp">
+    <div class="container bounceInUp bounceInUp-k">
       <a data-aos="fade-right" class="navbar-brand js-scroll-trigger" href="#page-top">KB</a>
+      
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -60,27 +61,37 @@
   </nav>
   <!-- Header -->
   <header class="masthead">
-    <div class="container">
+      
+    <div class="container container-header-k">
       <div class="intro-text">
         <!-- <div class="intro-lead-in">Welcome To Our Studio!</div> -->
         <div class="intro-heading text-uppercase">
-          <span class="header-title header-title-k">CREATIVE</span><br>
-          
-          
-          <span class="header-title header-title-k2">PROFESSIONAL</span><br>
+          <div class="header-title-wraper">
+            <span class="header-title header-title-k">CREATIVE</span><br>
+            <span class="header-title header-title-k2">PROFESSIONAL</span><br>
+          </div>
+          <!-- <div class="header-title-wraper">
+            <span class="header-title header-title-k-2txt">TEAM</span><br>
+            <span class="header-title header-title-k2-2txt">PLAYER</span><br>
+          </div>
+          <div class="header-title-wraper">
+              <span class="header-title header-title-k-3txt">EXPERTISE</span><br>
+              <span class="header-title header-title-k2-3txt">KNOWLEDGE</span><br>
+            </div> -->
           <!-- <span class="header-title-k">TEAM PLAYER</span> -->
         </div>
         <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
       </div>
+      
     </div>
+    <p class="header-hidden-txt rellax" data-rellax-speed="2">The devil is in the detail</p>
   </header>
   <!-- Portfolio Grid -->
-  <section data-aos="fade-up"
-  data-aos-duration="1500" class="bg-light page-section section-port-k" id="portfolio-k">
+  <section class="bg-light page-section section-port-k" id="portfolio-k">
     
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase ">Portfolio</h2>
+        <h2 class="section-heading text-uppercase">Portfolio</h2>
         <h3 class="section-subheading text-muted"></h3>
       </div>
     </div>
@@ -579,6 +590,9 @@
                         <li data-target="#carouselExampleIndicators8" data-slide-to="4">
                           <img src="img/portfolio/www/www5thumb.jpg" class="d-block w-100">
                         </li>
+                        <li data-target="#carouselExampleIndicators8" data-slide-to="5">
+                            <img src="img/portfolio/www/www6thumb.gif" class="d-block w-100">
+                          </li>
                         </ol>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -606,6 +620,11 @@
                             <img src="img/portfolio/www/www5.png" class="d-block w-100" alt="My Cork">
                           </a>
                         </div>
+                        <div class="carousel-item">
+                            <a href="http://monikajaroszewska.pl/index.html" target="blank">
+                              <img src="img/portfolio/www/www6.gif" class="d-block w-100" alt="MJ">
+                            </a>
+                          </div>
                       </div>
                       <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
                         <span class="prev-icon-k"><i class="fas fa-arrow-circle-left"></i></span>
@@ -851,14 +870,10 @@
   <!-- Contact -->
   <section class="page-section footer-k" id="contact">
     <div class="contact-k">
-      <p><i class="fas fa-phone-alt"></i>   089 463 2139</p>
+      <p><i class="fas fa-phone-alt"></i>089 463 2139</p>
       <p><i class="fas fa-envelope"></i><a href="mailto:konradb1975@gmail.com?Subject=Hello%20again" target="_top">konradb1975@gmail.com</a></p>
     </div>
   </section>
-
- 
-  
-  
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -874,5 +889,13 @@
   <script>
     AOS.init();
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.min.js" integrity="sha256-D8Gs+q912m9K1KjzTzBQas+zR0oQtxQEZDHh8NVVDx8=" crossorigin="anonymous"></script>
+  </script>
+  <script>
+
+    var rellax = new Rellax('.rellax');
+
+  </script>
+
 </body>
 </html>
