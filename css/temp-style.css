@@ -40,6 +40,11 @@
   width: 100%;
   text-align: right;
 }
+.header_side {
+  position: absolute;
+  left: -100px;
+  bottom: 0;
+}
 .container-k {
     display: flex;
     flex-wrap: wrap;
