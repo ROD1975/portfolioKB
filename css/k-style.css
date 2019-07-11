@@ -284,6 +284,7 @@
   .header-hidden-txt {
     display: none;
   }
+ 
   @keyframes header-anim1 {
     0%   {
       transform: translateX(-50px);
