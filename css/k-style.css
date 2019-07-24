@@ -14,8 +14,11 @@
 .header-title-k:first-child {
   animation: header-anim1 4s both;
 }
+.header-title {
+    padding-bottom: 35px;
+}
 .header-title-k2 {
-  animation: header-anim2 4s both;
+    animation: header-anim2 4s both;
 }
 .header-hidden-txt {
   position: absolute;
