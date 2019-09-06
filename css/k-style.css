@@ -234,6 +234,23 @@
   .cv-icons-k {
     font-size: 2rem;
   }
+  .ref {
+    
+    
+  }
+  .button {
+    margin: auto;
+    width: 25%;
+    height: 15vh;
+    background-color: #0053a0;
+    margin-top: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+  }
   @keyframes header-anim1 {
     0%   {
       transform: translateX(0px);
